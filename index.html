@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SoulTravel</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Soul<span>Travel</span>.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="#package">Package</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn sign__up">Sign Up</button>
+        <button class="btn sign__in">Sign In</button>
+      </div>
+    </nav>
+    
+    <header class="header__container" id="home">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-1">
+          <span><i class="ri-key-line"></i></span>
+          Hotel Booking
+        </div>
+        <div class="header__image__card header__image__card-2">
+          <span><i class="ri-passport-line"></i></span>
+          Flight Tickets
+        </div>
+        <div class="header__image__card header__image__card-3">
+          <span><i class="ri-map-2-line"></i></span>
+          Local Events
+        </div>
+        <div class="header__image__card header__image__card-4">
+          <span><i class="ri-guide-line"></i></span>
+          Tour Guide
+        </div>
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>LET'S GO!<br />THE <span>ADVENTURE</span> IS WAITING FOR YOU</h1>
+        <p>
+          Embark on Your Journey Today and Discover Uncharted Wonders Around the
+          World - Your Adventure Awaits with Exciting Experiences, Unforgettable
+          Memories, and Endless Opportunities
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              <h5>Destination</h5>
+              <div>
+                <span><i class="ri-map-pin-line"></i></span>
+                <input type="text" placeholder="Paris, France" />
+              </div>
+            </div>
+            <div class="input__group">
+              <h5>Date</h5>
+              <div>
+                <span><i class="ri-calendar-2-line"></i></span>
+                <input type="text" placeholder="17 July 2024" />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Search</button>
+        </form>
+        <div class="bar">
+          Copyright © 2024 Web Design Mastery. All rights reserved.
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container" id="destination">
+      <h2 class="section__header">Top Destinations</h2>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=600" alt="Paris" />
+          <div class="destination__details">
+            <h4>Paris, France</h4>
+            <p>Explore the city of lights and romance.</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=600" alt="Kyoto" />
+          <div class="destination__details">
+            <h4>Kyoto, Japan</h4>
+            <p>Experience ancient temples and traditions.</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=600" alt="Santorini" />
+          <div class="destination__details">
+            <h4>Santorini, Greece</h4>
+            <p>Stunning sunsets and white-washed houses.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container" id="package">
+      <h2 class="section__header">Our Popular Packages</h2>
+      <div class="package__grid">
+        <div class="package__card">
+          <div class="package__content">
+            <h3>Standard Package</h3>
+            <p class="package__price">$499 / Person</p>
+            <ul>
+              <li><i class="ri-checkbox-circle-line"></i> 3 Days 2 Nights Hotel</li>
+              <li><i class="ri-checkbox-circle-line"></i> Guided City Tour</li>
+              <li><i class="ri-checkbox-circle-line"></i> Free Flight Ticket</li>
+            </ul>
+          </div>
+        </div>
+        <div class="package__card popular">
+          <div class="package__content">
+            <h3>Premium Odyssey</h3>
+            <p class="package__price">$899 / Person</p>
+            <ul>
+              <li><i class="ri-checkbox-circle-line"></i> 7 Days 6 Nights Luxury Stay</li>
+              <li><i class="ri-checkbox-circle-line"></i> Private Egyptologist</li>
+              <li><i class="ri-checkbox-circle-line"></i> Full Telemetry Teleportation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container" id="blog">
+      <h2 class="section__header">Latest Travel Stories</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <h4>10 Secrets To Packing Smart</h4>
+          <p>Discover the absolute best tactics to optimize your travel matrices and luggage load-outs.</p>
+          <a href="#">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="blog__card">
+          <h4>Exploring Uncharted Wonders</h4>
+          <p>A comprehensive log tracking local events and sacred paths across historical landmarks.</p>
+          <a href="#">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container" id="about">
+      <h2 class="section__header">About SoulTravel</h2>
+      <div class="about__content">
+        <p>
+          At SoulTravel, we focus on industry-oriented luxury travel designs. We don't just secure flight tickets; we craft real-world experiences that establish absolute credibility among modern explorers. Consistent performance and dedication are our mandatory guidelines.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container" id="contact">
+      <h2 class="section__header">Initialize Connection</h2>
+      <div class="contact__container">
+        <form id="interactive-contact-form" novalidate>
+          <div class="form__group">
+            <label for="username">Full Name</label>
+            <div class="form__input">
+              <span><i class="ri-user-line"></i></span>
+              <input type="text" id="username" placeholder="Your Name" required />
+            </div>
+            <span class="error-msg" id="name-error"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="email">Email Address</label>
+            <div class="form__input">
+              <span><i class="ri-mail-line"></i></span>
+              <input type="email" id="email" placeholder="name@domain.com" required />
+            </div>
+            <span class="error-msg" id="email-error"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <div class="form__input">
+              <span><i class="ri-phone-line"></i></span>
+              <input type="tel" id="phone" placeholder="e.g., 0100XXXXXXX" required />
+            </div>
+            <span class="error-msg" id="phone-error"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="password">Security Password</label>
+            <div class="form__input">
+              <span><i class="ri-lock-line"></i></span>
+              <input type="password" id="password" placeholder="Minimum 8 characters" required />
+            </div>
+            <span class="error-msg" id="password-error"></span>
+            <div class="password-strength" id="password-strength"></div>
+          </div>
+
+          <button type="submit">Submit Request</button>
+          <div class="success-banner" id="success-banner">✓ Registration Secured. Welcome to SoulTravel matrix.</div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer__bar">
+      Copyright © 2026 SoulTravel. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
